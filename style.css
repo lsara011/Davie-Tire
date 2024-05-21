@@ -1,28 +1,60 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
+
+/* Style for the entire navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.7); /* Light semi-transparent background */
+    text-align: center;
+    color: black;
 }
 
-header{
-    background-color: #1f1717;
-    font-size: 16px;
-    display: flex;
-    justify-content: space-around;
-    
+/* Style for navbar links */
+.navbar a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    color: black;
+    transition: color 0.3s ease;
 }
-.comp-name h1{
-    color: white;
-    font-family: 'Bebas Neue';
-    text-align: left;
-    padding: 0 5px;
+
+/* Change color on hover for better user experience */
+.navbar a:hover {
+    color: #007bff; /* Bootstrap primary color */
 }
-.navigation-1{
-    display:none;
+
+/* Style for the navbar toggler icon */
+.navbar-toggler-icon {
+    background-color: white;
+    border-radius: 5px; /* Optional: Rounded corners for the icon background */
 }
-.nav-wrapper-ex i{
-  color: white;
+
+/* Optional: Style for the toggler button itself */
+.navbar-toggler {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3); /* Light semi-transparent background */
+}
+.carousel-inner {
+    height: 100%; /* Set a fixed height */
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Cover the entire height while maintaining aspect ratio */
+}
+
+.about-us{
+    text-align: center;
+    padding: 10px;   
+}
+
+.about-us h1{
+    font-family: bebas neue;
+    font-size: 45px;
+}
+
+.about-us p{
+    font-size: 20px;
+    margin: 25px;
 }
