@@ -119,7 +119,9 @@
 }
 
 .finance-image img{
-  max-height: 200px;
+  max-height: 250px;
+  max-width: 200px;
+  padding: 2%
 }
 
  /* Contact Container */
